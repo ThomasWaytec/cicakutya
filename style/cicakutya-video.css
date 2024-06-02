@@ -1,0 +1,8 @@
+#cicakutya-video {
+    position: fixed; /* Fix the video to the viewport */
+    top: 0; /* Start at the top of the viewport */
+    left: 0; /* Start at the left of the viewport */
+    width: 100vw; /* Cover 100% of viewport width */
+    height: 100vh; /* Cover 100% of viewport height */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  }

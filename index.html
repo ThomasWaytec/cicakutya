@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cicakutya</title>
+  <link rel="stylesheet" href="style/modal.css">
+  <link rel="stylesheet" href="style/cicakutya-button.css">
+  <link rel="stylesheet" href="style/cicakutya-video.css">
+  <link rel="stylesheet" href="style/body.css">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+
+<div id="volumeModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <p>Használjon fülest és adjon hangerőt a készülékére.</p>
+    <button id="okButton">OK</button>
+  </div>
+</div>
+
+
+<div id="cicakutyaButtonContainer">
+    <button type="button" id="cicakutyaButton">cicakutya?</button>
+    <audio id="cicakutyaSound" src="assets/audio/explosion.mp3" preload="auto"></audio>
+</div>
+  
+
+<script src="script/volumeModal.js"></script>
+<script src="script/cicakutyaButton.js"></script>
+<script src="script/randGifs.js"></script>
+
+</body>
+</html>
